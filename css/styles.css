@@ -1,0 +1,138 @@
+/* Estilos generales para toda la página */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+
+.custom-navbar {
+    background: #000000;
+    color: #ffffff;
+}
+
+.custom-navbar .nav-link {
+    color: #ffffff;
+}
+
+.custom-navbar .nav-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 7px;
+}
+
+.custom-navbar .nav-link.active {
+    color: #ffffff !important;
+}
+
+.custom-navbar .nav-link.active:hover {
+    color: #000000 !important;
+    background-color: #ffffff;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+}
+
+/* Estilos para la sección de inicio (con imagen de fondo) */
+.background-container {
+    background-image: url('assets/dest1.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    border-radius: 10px;
+}
+
+.overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #a1a1a1;
+}
+.card-text{
+    color: #000000;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #197d0d;;
+    border-color: #1de771;
+}
+
+.btn-primary:hover {
+    background-color:  #29fb30;
+    border-color:  #1c9c51;
+}
+
+/* Estilos para las tarjetas de productos */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 8px 12px rgba(2, 255, 19, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 15px 30px rgba(80, 253, 0, 0.4);
+}
+
+/* Estilos generales para contacto */
+#contactanos {
+    color: #000000;
+}
+
+footer {
+    color: #ffffff;
+}

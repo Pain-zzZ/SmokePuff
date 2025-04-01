@@ -41,12 +41,11 @@ h2 {
     font-family: 'Georgia', serif;
 }
 
-/* Estilos para la sección de inicio (con imagen de fondo) */
 .background-container {
-    background-image: url('assets/dest1.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('assets/dest1.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +56,7 @@ h2 {
     text-align: center;
     color: white;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    background: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
 }
 
@@ -81,6 +80,9 @@ p {
     font-size: 1.2rem;
     margin-top: 10px;
     color: #a1a1a1;
+}
+p:hover {
+    color: #0d4b08;
 }
 .card-text{
     color: #000000;
@@ -128,7 +130,6 @@ p {
     box-shadow: 0 15px 30px rgba(80, 253, 0, 0.4);
 }
 
-/* Estilos generales para contacto */
 #contactanos {
     color: #000000;
 }
